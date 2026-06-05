@@ -1,0 +1,44 @@
+BLUESTOCK MF — DATA QUALITY SUMMARY (Day 1)
+============================================================
+
+Dataset : fund_master
+Shape   : 40 rows × 15 columns
+  No anomalies
+
+Dataset : nav_history
+Shape   : 46,000 rows × 3 columns
+  No anomalies
+
+Dataset : aum_by_fund_house
+Shape   : 90 rows × 5 columns
+  No anomalies
+
+Dataset : monthly_sip_inflows
+Shape   : 48 rows × 6 columns
+Anomalies:
+    ⚠  yoy_growth_pct: 12 nulls (25.0%)
+
+Dataset : category_inflows
+Shape   : 144 rows × 3 columns
+  No anomalies
+
+Dataset : industry_folio_count
+Shape   : 21 rows × 6 columns
+  No anomalies
+
+Dataset : scheme_performance
+Shape   : 40 rows × 19 columns
+  No anomalies
+
+Dataset : investor_transactions
+Shape   : 32,778 rows × 13 columns
+  No anomalies
+
+Dataset : portfolio_holdings
+Shape   : 322 rows × 8 columns
+  No anomalies
+
+Dataset : benchmark_indices
+Shape   : 8,050 rows × 3 columns
+  No anomalies
+
